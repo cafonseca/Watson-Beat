@@ -7,20 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2A18C221A5DA3C007C1581 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A18C021A5DA3C007C1581 /* RecordViewController.swift */; };
+		BD2A18C321A5DA3C007C1581 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2A18C121A5DA3C007C1581 /* RecordViewController.xib */; };
+		BD32D2A8219E3A7D0006171E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32D2A7219E3A7D0006171E /* MainViewController.swift */; };
+		BD32D2AB219E3EE30006171E /* musicinnovation.png in Resources */ = {isa = PBXBuildFile; fileRef = BD32D2AA219E3EE30006171E /* musicinnovation.png */; };
+		BD32D2AE219E4B7E0006171E /* PlayMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD32D2AC219E4B7E0006171E /* PlayMusicViewController.swift */; };
 		BD5D4E3E21988FE40099E084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D4E3D21988FE40099E084 /* AppDelegate.swift */; };
-		BD5D4E4021988FE40099E084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D4E3F21988FE40099E084 /* ViewController.swift */; };
+		BD5D4E4021988FE40099E084 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D4E3F21988FE40099E084 /* TestViewController.swift */; };
 		BD5D4E4221988FE40099E084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5D4E4121988FE40099E084 /* Assets.xcassets */; };
 		BD5D4E4521988FE40099E084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5D4E4321988FE40099E084 /* Main.storyboard */; };
+		BD5D4E552198908B0099E084 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5D4E542198908B0099E084 /* AudioKit.framework */; };
+		BD5D4E57219890970099E084 /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5D4E56219890970099E084 /* AudioKitUI.framework */; };
+		BD5D4E5A219892F00099E084 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5D4E59219892F00099E084 /* CoreMIDI.framework */; };
+		BD7FC03B2198EEFE0025A16A /* WatsonMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7FC03A2198EEFE0025A16A /* WatsonMusic.swift */; };
+		BDA66EEF21A07A8C00CCBC44 /* InspirationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66EED21A07A8B00CCBC44 /* InspirationViewController.swift */; };
+		BDA66EF221A0F4C600CCBC44 /* ParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66EF121A0F4C600CCBC44 /* ParametersViewController.swift */; };
+		BDA66EF421A0FE9300CCBC44 /* GenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66EF321A0FE9300CCBC44 /* GenerateViewController.swift */; };
+		BDEA77B821A870F900BE9D5D /* WatsonBeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA77B621A870F900BE9D5D /* WatsonBeatViewController.swift */; };
+		BDEA77B921A870F900BE9D5D /* WatsonBeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77B721A870F900BE9D5D /* WatsonBeatViewController.xib */; };
+		BDEA77BE21A89A3B00BE9D5D /* led-off.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77BA21A89A3A00BE9D5D /* led-off.png */; };
+		BDEA77BF21A89A3B00BE9D5D /* led-on.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77BB21A89A3B00BE9D5D /* led-on.png */; };
+		BDEA77C021A89A3B00BE9D5D /* led-off.ai in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77BC21A89A3B00BE9D5D /* led-off.ai */; };
+		BDEA77C121A89A3B00BE9D5D /* led-on.ai in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77BD21A89A3B00BE9D5D /* led-on.ai */; };
+		BDEA77C621A8A13A00BE9D5D /* led-off_20.ai in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77C221A8A13900BE9D5D /* led-off_20.ai */; };
+		BDEA77C721A8A13A00BE9D5D /* led-on_20.ai in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77C321A8A13A00BE9D5D /* led-on_20.ai */; };
+		BDEA77C821A8A13A00BE9D5D /* led-on_20.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77C421A8A13A00BE9D5D /* led-on_20.png */; };
+		BDEA77C921A8A13A00BE9D5D /* led-off_20.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEA77C521A8A13A00BE9D5D /* led-off_20.png */; };
+		BDEA77CB21AA28FC00BE9D5D /* SaveInspirationFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA77CA21AA28FC00BE9D5D /* SaveInspirationFileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2A18C021A5DA3C007C1581 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		BD2A18C121A5DA3C007C1581 /* RecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		BD32D2A7219E3A7D0006171E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BD32D2AA219E3EE30006171E /* musicinnovation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicinnovation.png; sourceTree = "<group>"; };
+		BD32D2AC219E4B7E0006171E /* PlayMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicViewController.swift; sourceTree = "<group>"; };
 		BD5D4E3A21988FE40099E084 /* Watson-Beat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watson-Beat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5D4E3D21988FE40099E084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD5D4E3F21988FE40099E084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD5D4E3F21988FE40099E084 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		BD5D4E4121988FE40099E084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5D4E4421988FE40099E084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD5D4E4621988FE40099E084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD5D4E4721988FE40099E084 /* Watson_Beat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Watson_Beat.entitlements; sourceTree = "<group>"; };
+		BD5D4E542198908B0099E084 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+		BD5D4E56219890970099E084 /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKitUI.framework; sourceTree = "<group>"; };
+		BD5D4E59219892F00099E084 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		BD7FC03A2198EEFE0025A16A /* WatsonMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonMusic.swift; sourceTree = "<group>"; };
+		BDA66EEC219F3CC000CCBC44 /* Watson-Beat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Watson-Beat.entitlements"; sourceTree = "<group>"; };
+		BDA66EED21A07A8B00CCBC44 /* InspirationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationViewController.swift; sourceTree = "<group>"; };
+		BDA66EF121A0F4C600CCBC44 /* ParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersViewController.swift; sourceTree = "<group>"; };
+		BDA66EF321A0FE9300CCBC44 /* GenerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateViewController.swift; sourceTree = "<group>"; };
+		BDEA77B621A870F900BE9D5D /* WatsonBeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonBeatViewController.swift; sourceTree = "<group>"; };
+		BDEA77B721A870F900BE9D5D /* WatsonBeatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatsonBeatViewController.xib; sourceTree = "<group>"; };
+		BDEA77BA21A89A3A00BE9D5D /* led-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-off.png"; sourceTree = "<group>"; };
+		BDEA77BB21A89A3B00BE9D5D /* led-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-on.png"; sourceTree = "<group>"; };
+		BDEA77BC21A89A3B00BE9D5D /* led-off.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "led-off.ai"; sourceTree = "<group>"; };
+		BDEA77BD21A89A3B00BE9D5D /* led-on.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "led-on.ai"; sourceTree = "<group>"; };
+		BDEA77C221A8A13900BE9D5D /* led-off_20.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "led-off_20.ai"; sourceTree = "<group>"; };
+		BDEA77C321A8A13A00BE9D5D /* led-on_20.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "led-on_20.ai"; sourceTree = "<group>"; };
+		BDEA77C421A8A13A00BE9D5D /* led-on_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-on_20.png"; sourceTree = "<group>"; };
+		BDEA77C521A8A13A00BE9D5D /* led-off_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-off_20.png"; sourceTree = "<group>"; };
+		BDEA77CA21AA28FC00BE9D5D /* SaveInspirationFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveInspirationFileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +74,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5D4E5A219892F00099E084 /* CoreMIDI.framework in Frameworks */,
+				BD5D4E57219890970099E084 /* AudioKitUI.framework in Frameworks */,
+				BD5D4E552198908B0099E084 /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD32D2A9219E3EE30006171E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BDEA77C521A8A13A00BE9D5D /* led-off_20.png */,
+				BDEA77C221A8A13900BE9D5D /* led-off_20.ai */,
+				BDEA77C321A8A13A00BE9D5D /* led-on_20.ai */,
+				BDEA77C421A8A13A00BE9D5D /* led-on_20.png */,
+				BDEA77BC21A89A3B00BE9D5D /* led-off.ai */,
+				BDEA77BA21A89A3A00BE9D5D /* led-off.png */,
+				BDEA77BD21A89A3B00BE9D5D /* led-on.ai */,
+				BDEA77BB21A89A3B00BE9D5D /* led-on.png */,
+				BD32D2AA219E3EE30006171E /* musicinnovation.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		BD5D4E3121988FE40099E084 = {
 			isa = PBXGroup;
 			children = (
 				BD5D4E3C21988FE40099E084 /* Watson-Beat */,
 				BD5D4E3B21988FE40099E084 /* Products */,
+				BD5D4E4D21988FF10099E084 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,14 +119,36 @@
 		BD5D4E3C21988FE40099E084 /* Watson-Beat */ = {
 			isa = PBXGroup;
 			children = (
+				BDA66EEC219F3CC000CCBC44 /* Watson-Beat.entitlements */,
+				BD32D2A9219E3EE30006171E /* images */,
+				BD32D2A7219E3A7D0006171E /* MainViewController.swift */,
 				BD5D4E3D21988FE40099E084 /* AppDelegate.swift */,
-				BD5D4E3F21988FE40099E084 /* ViewController.swift */,
+				BD5D4E3F21988FE40099E084 /* TestViewController.swift */,
 				BD5D4E4121988FE40099E084 /* Assets.xcassets */,
 				BD5D4E4321988FE40099E084 /* Main.storyboard */,
+				BDEA77CA21AA28FC00BE9D5D /* SaveInspirationFileViewController.swift */,
+				BDEA77B621A870F900BE9D5D /* WatsonBeatViewController.swift */,
+				BDEA77B721A870F900BE9D5D /* WatsonBeatViewController.xib */,
 				BD5D4E4621988FE40099E084 /* Info.plist */,
-				BD5D4E4721988FE40099E084 /* Watson_Beat.entitlements */,
+				BD7FC03A2198EEFE0025A16A /* WatsonMusic.swift */,
+				BD32D2AC219E4B7E0006171E /* PlayMusicViewController.swift */,
+				BDA66EED21A07A8B00CCBC44 /* InspirationViewController.swift */,
+				BDA66EF121A0F4C600CCBC44 /* ParametersViewController.swift */,
+				BDA66EF321A0FE9300CCBC44 /* GenerateViewController.swift */,
+				BD2A18C021A5DA3C007C1581 /* RecordViewController.swift */,
+				BD2A18C121A5DA3C007C1581 /* RecordViewController.xib */,
 			);
 			path = "Watson-Beat";
+			sourceTree = "<group>";
+		};
+		BD5D4E4D21988FF10099E084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D4E59219892F00099E084 /* CoreMIDI.framework */,
+				BD5D4E56219890970099E084 /* AudioKitUI.framework */,
+				BD5D4E542198908B0099E084 /* AudioKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +183,11 @@
 				TargetAttributes = {
 					BD5D4E3921988FE40099E084 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -121,8 +214,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEA77C721A8A13A00BE9D5D /* led-on_20.ai in Resources */,
 				BD5D4E4221988FE40099E084 /* Assets.xcassets in Resources */,
+				BDEA77B921A870F900BE9D5D /* WatsonBeatViewController.xib in Resources */,
+				BDEA77C121A89A3B00BE9D5D /* led-on.ai in Resources */,
+				BDEA77C821A8A13A00BE9D5D /* led-on_20.png in Resources */,
 				BD5D4E4521988FE40099E084 /* Main.storyboard in Resources */,
+				BDEA77BF21A89A3B00BE9D5D /* led-on.png in Resources */,
+				BDEA77BE21A89A3B00BE9D5D /* led-off.png in Resources */,
+				BD32D2AB219E3EE30006171E /* musicinnovation.png in Resources */,
+				BDEA77C921A8A13A00BE9D5D /* led-off_20.png in Resources */,
+				BD2A18C321A5DA3C007C1581 /* RecordViewController.xib in Resources */,
+				BDEA77C021A89A3B00BE9D5D /* led-off.ai in Resources */,
+				BDEA77C621A8A13A00BE9D5D /* led-off_20.ai in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +237,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD5D4E4021988FE40099E084 /* ViewController.swift in Sources */,
+				BD5D4E4021988FE40099E084 /* TestViewController.swift in Sources */,
+				BDA66EF421A0FE9300CCBC44 /* GenerateViewController.swift in Sources */,
 				BD5D4E3E21988FE40099E084 /* AppDelegate.swift in Sources */,
+				BD2A18C221A5DA3C007C1581 /* RecordViewController.swift in Sources */,
+				BD7FC03B2198EEFE0025A16A /* WatsonMusic.swift in Sources */,
+				BDEA77CB21AA28FC00BE9D5D /* SaveInspirationFileViewController.swift in Sources */,
+				BD32D2A8219E3A7D0006171E /* MainViewController.swift in Sources */,
+				BDEA77B821A870F900BE9D5D /* WatsonBeatViewController.swift in Sources */,
+				BD32D2AE219E4B7E0006171E /* PlayMusicViewController.swift in Sources */,
+				BDA66EF221A0F4C600CCBC44 /* ParametersViewController.swift in Sources */,
+				BDA66EEF21A07A8C00CCBC44 /* InspirationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +384,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Watson-Beat/Watson_Beat.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 76CMF53Q35;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Watson-Beat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.ris.Watson-Beat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -290,15 +407,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Watson-Beat/Watson_Beat.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 76CMF53Q35;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Watson-Beat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.ris.Watson-Beat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
